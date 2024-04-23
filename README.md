@@ -1,1 +1,3 @@
-# django-web
+# Django Web
+
+Django web application boilerplate
