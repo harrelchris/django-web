@@ -1,7 +1,7 @@
 .venv\Scripts\activate
 
-black app --line-length 120 --exclude migrations/ --exclude fixtures/
+black --line-length 120 --extend-exclude migrations/ app
 
-flake8 app --max-line-length 120 --extend-exclude .idea/,.venv/,migrations/
+flake8 --max-line-length 120 --extend-exclude app/*/migrations/ app
 
-isort app --profile black
+isort --profile black app
