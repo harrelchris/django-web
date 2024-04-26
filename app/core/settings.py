@@ -26,11 +26,13 @@ INSTALLED_APPS = [
     "allauth.socialaccount",
     "allauth.socialaccount.providers.github",
     "allauth.socialaccount.providers.google",
+    "debug_toolbar",
     "users.apps.UsersConfig",
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -126,3 +128,9 @@ SOCIALACCOUNT_PROVIDERS = {
         },
     },
 }
+
+INTERNAL_IPS = [
+    "127.0.0.1",
+    "localhost",
+    "[::1]",
+]
