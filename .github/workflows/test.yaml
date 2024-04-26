@@ -22,6 +22,6 @@ jobs:
         with:
           python-version: "3.12"
       - run: |
-          pip install -r requirements.txt
+          pip install -r requirements/test.txt
           python app/manage.py collectstatic --noinput
           python app/manage.py test app
