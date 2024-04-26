@@ -1,3 +1,5 @@
 django
 django-allauth
+django-allauth-ui
 django-environ
+django-widget-tweaks
