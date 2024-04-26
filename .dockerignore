@@ -5,6 +5,7 @@
 .static/
 .venv/
 __pycache__/
+compose/
 envs/
 scripts/
 
