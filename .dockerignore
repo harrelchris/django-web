@@ -1,0 +1,17 @@
+.git/
+.github/
+.idea/
+.local/
+.static/
+.venv/
+__pycache__/
+envs/
+scripts/
+
+.dockerignore
+.editorconfig
+.env
+.gitignore
+db.sqlite3
+Dockerfile
+README.md
