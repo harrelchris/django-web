@@ -6,7 +6,9 @@
 .venv/
 __pycache__/
 compose/
+docs/
 envs/
+nginx/
 scripts/
 
 .dockerignore
@@ -14,5 +16,7 @@ scripts/
 .env
 .gitignore
 db.sqlite3
+dev.yaml
 Dockerfile
+prod.yaml
 README.md
