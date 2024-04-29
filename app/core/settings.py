@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     "allauth.socialaccount.providers.google",
     "debug_toolbar",
     "widget_tweaks",
+    "common.apps.CommonConfig",
     "users.apps.UsersConfig",
 ]
 
