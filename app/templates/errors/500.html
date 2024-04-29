@@ -1,10 +1,9 @@
-{% extends "base.html" %}
+{% extends "errors/base.html" %}
 
 {% block title %}500 Internal Server Error{% endblock %}
 
-{% block content %}
-  <div class="container">
-    <h1>500 Internal Server Error</h1>
-    <p>The server encountered an internal error and could not complete your request.</p>
-  </div>
-{% endblock %}
+{% block status_code %}500{% endblock %}
+
+{% block name %}Internal Server Error{% endblock %}
+
+{% block description %}The server encountered an internal error and could not complete your request.{% endblock %}
