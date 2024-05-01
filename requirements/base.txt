@@ -1,5 +1,5 @@
 django
-django-allauth
+django-allauth[socialaccount]
 django-allauth-ui
 django-debug-toolbar
 django-environ
