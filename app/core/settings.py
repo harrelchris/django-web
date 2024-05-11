@@ -36,7 +36,7 @@ DJANGO_APPS = [
 ]
 
 THIRD_PARTY_APPS = [
-    "allauth_ui",
+    "allauth_themes.bootstrap",
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
