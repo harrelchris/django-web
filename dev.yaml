@@ -7,7 +7,8 @@ services:
     container_name: app
     volumes:
       - static:/app/.static
-    command: gunicorn
+      - .:/app
+    command: gunicorn --reload
     depends_on:
       - postgres
     environment:
