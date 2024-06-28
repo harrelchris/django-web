@@ -47,7 +47,6 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    "common.apps.CommonConfig",
     "users.apps.UsersConfig",
 ]
 
@@ -63,7 +62,6 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "allauth.account.middleware.AccountMiddleware",
-    "common.middleware.ErrorLoggingMiddleware",
 ]
 
 ROOT_URLCONF = "core.urls"
