@@ -1,6 +1,3 @@
 django
-django-allauth[socialaccount]
-django-allauth-themes
 django-debug-toolbar
 django-environ
-django-widget-tweaks
